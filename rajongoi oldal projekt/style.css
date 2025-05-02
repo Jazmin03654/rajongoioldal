@@ -1,0 +1,66 @@
+@font-face { font-family: Minecraft; src: url('Minecraft.ttf'); } 
+
+#title_image {
+    width: 100%;
+}
+
+#p_01 {
+    font-size: 1.5vw;
+}
+
+#title {
+    width: 50vw;
+    display: block;
+    margin: auto;
+    margin-top: 1vw;
+}
+
+body {
+    display: flex;
+}
+
+#sajat_navigacio {
+    position: fixed;
+    background: url(navigation_bg.png);
+    height: 100vh;
+    width: 10vw;
+    min-width: 50px;
+    border-right: rgb(39, 29, 48) solid 5px;
+    font-family: Minecraft;
+}
+
+#body {
+    height: 100vh;
+    margin-left: 12vw;
+}
+
+#sajat_nav_ul {
+    color: white;
+    list-style: none;
+    text-align: left;
+    margin-left: -20px;
+    margin-top: 20px;
+    line-height: 5vw;
+    font-style: bold;
+    font size: 3%;
+}
+
+#sajat_nav_ul li a {
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: rgb(212, 208, 223);
+    transition: 0.1s;
+}
+
+#sajat_navigacio img {
+    width: 6vw;
+    display: block;
+    margin: auto;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+}
+
+#sajat_nav_ul li a:hover {
+    color: rgb(152, 120, 173);
+    transition: 0.1s;
+}
