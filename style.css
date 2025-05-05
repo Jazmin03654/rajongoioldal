@@ -1,11 +1,10 @@
-@font-face { font-family: Minecraft; src: url('Minecraft.ttf'); } 
-
 #title_image {
     width: 100%;
 }
 
 #p_01 {
     font-size: 1.5vw;
+    color: rgb(206, 206, 206);
 }
 
 #title {
@@ -17,21 +16,32 @@
 
 body {
     display: flex;
+    background: url(other/BOATEMc.png);
+    font-family: monospace;
 }
 
 #sajat_navigacio {
     position: fixed;
     background: url(other/navigation_bg.png);
     height: 100vh;
-    width: 10vw;
-    min-width: 50px;
-    border-right: rgb(39, 29, 48) solid 5px;
-    font-family: Minecraft;
+    width: 12vw;
+    min-width: 70px;
+    border-right: rgb(36, 30, 41) solid 5px;
+    z-index: 3; /* z-index 3 */
 }
 
-#body {
+#sajat_body {
     height: 100vh;
-    margin-left: 12vw;
+    width: 88vw;
+    margin-left: 16vw;
+    margin-right: 3vw;
+    z-index: 2; /* z-index 2 */
+    color: white;
+}
+
+.bemutato {
+    margin-top: 3vw;
+    font-size: 20px;
 }
 
 #sajat_nav_ul {
@@ -40,9 +50,12 @@ body {
     text-align: left;
     margin-left: -20px;
     margin-top: 20px;
-    line-height: 5vw;
     font-style: bold;
     font size: 3%;
+}
+
+#sajat_nav_ul li {
+    padding: 5vh 0;
 }
 
 #sajat_nav_ul li a {
@@ -63,4 +76,67 @@ body {
 #sajat_nav_ul li a:hover {
     color: rgb(152, 120, 173);
     transition: 0.1s;
+}
+
+#body_overlay {
+    position: absolute;
+    background: black;
+    opacity: 60%;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1; /* z-index 1 */
+}
+
+.channel_links {
+    color: white;
+}
+
+.channel_links:hover {
+    color: rgb(197, 157, 235);
+}
+
+.table {
+    width: 60vw;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.sajat_icon {
+    width: 2vw;
+}
+
+h2 {
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.channel_links_2 {
+    color: black;
+    text-decoration: none;
+}
+
+.channel_links_2:hover {
+    color: rgb(165, 123, 216);
+}
+
+.random_image_div {
+    width: 40vw;
+    margin: auto;
+}
+
+.random_image {
+    width: 100%;
+}
+
+.caption {
+    font-size: 10px;
+}
+
+h3 {
+    color: rgb(180, 176, 192);
 }
