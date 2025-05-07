@@ -124,19 +124,27 @@ html, body {
     color: rgb(165, 123, 216);
 }
 
-.random_image_div {
+.random_image {
     width: 40vw;
     margin: auto;
 }
 
-.random_image {
+.random_image img {
     width: 100%;
 }
 
-.caption {
+.random_image p {
     font-size: 10px;
 }
 
 h3 {
     color: rgb(180, 176, 192);
+}
+
+p {
+    font-size: 20px;
+}
+
+.sajat_grid_image {
+    width: 600px;
 }
