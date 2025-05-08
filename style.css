@@ -33,7 +33,7 @@ body {
 #sajat_body {
     height: 100vh;
     width: 88vw;
-    margin-left: 16vw;
+    margin-left: 18vw;
     margin-right: 3vw;
     z-index: 2; /* z-index 2 */
     color: white;
@@ -51,7 +51,6 @@ body {
     margin-left: -20px;
     margin-top: 20px;
     font-style: bold;
-    font size: 3%;
 }
 
 #sajat_nav_ul li {
@@ -59,11 +58,26 @@ body {
 }
 
 #sajat_nav_ul li a {
-    font-size: 1.5vw;
+    font-size: 25px;  /*1.5vw*/
     text-decoration: none;
     color: rgb(212, 208, 223);
     transition: 0.1s;
 }
+
+@media screen and (max-width: 1500px) {
+    #sajat_nav_ul li a {
+        font-size: 15px;}}
+
+@media screen and (max-width: 950px) {
+    #sajat_nav_ul li a {
+        font-size: 10px;}
+    #sajat_nav_ul {
+        margin-left: -25px;}}
+        
+@media screen and (max-width: 650px) {
+    #sajat_nav_ul li a {
+        font-size: 8px;}}
+    
 
 #sajat_navigacio img {
     width: 6vw;
@@ -116,7 +130,7 @@ html, body {
 }
 
 .channel_links_2 {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -127,6 +141,7 @@ html, body {
 .random_image {
     width: 40vw;
     margin: auto;
+    min-width: 300px;
 }
 
 .random_image img {
@@ -146,5 +161,15 @@ p {
 }
 
 .sajat_grid_image {
-    width: 600px;
+    width: 33vw;
+    min-width: 300px;
+    margin: auto;
 }
+
+@media screen and (max-width: 680px) {
+    td {
+        font-size: 10px;}}
+
+@media screen and (max-width: 680px) {
+    th {
+        font-size: 12px;}}
