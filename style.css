@@ -81,6 +81,7 @@ body {
 
 #sajat_navigacio img {
     width: 6vw;
+    min-width: 40px;
     display: block;
     margin: auto;
     margin-top: 1vw;
