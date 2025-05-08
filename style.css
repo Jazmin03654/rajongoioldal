@@ -174,3 +174,46 @@ p {
 @media screen and (max-width: 680px) {
     th {
         font-size: 12px;}}
+
+.sajat_footer {
+    margin: auto;
+    margin-left: -10vw;
+    margin-right: -10vw;
+    bottom: 0;
+    width: 120%;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    vertical-align: bottom;
+}
+
+.sajat_footer p {
+    margin: auto;
+    padding: 10px 0;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 650px) {
+    .sajat_footer p {
+        font-size: 8px;}}
+
+.sajat_footer_main {
+    margin: auto;
+    margin-left: -10vw;
+    margin-right: -10vw;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    vertical-align: bottom;
+    position: fixed;
+}
+
+.sajat_footer_main p {
+    margin: auto;
+    padding: 10px 0;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 650px) {
+    .sajat_footer_main p {
+        font-size: 8px;}}
